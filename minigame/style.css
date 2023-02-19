@@ -1,0 +1,65 @@
+*{
+ margin: 0;
+}
+
+body {
+ background: black;
+}
+
+.game {
+    position: relative;
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+    background-image: url("img/background.png");
+    /* height: 100vh;
+    width: 100vw; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.circle {
+    display: flex;
+}
+
+.image_section {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 50%;
+}
+.invisible {
+    display: none;
+}
+
+.gameOver {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: pink;
+    border-radius: 5px;
+    opacity: 80%;
+    width: 200px;
+    height: 150px;
+}
+
+.gameResult {
+    color: brown;
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    opacity: 100;
+    z-index: 100;
+    text-align: center;
+}
+
+.timer_wrapper {
+    text-align: center;
+    background: blue;
+    width: 100px;
+    height: 30px;
+}
+
+
